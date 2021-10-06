@@ -339,6 +339,9 @@ nav a{
         display: block;
         font-size: 15px;
     }
+    .texto{
+        margin-left: 7.5%;
+    }
     .perfil{
         width: 100%;
     }
@@ -372,6 +375,9 @@ nav a{
         flex-wrap: wrap;
         justify-content: space-around;
         margin-left: 0%;  
+    }
+    .television {  
+        margin-bottom: 2%; 
     }
     .television, .cine, .teatro{
         width: 100%;
