@@ -77,19 +77,14 @@ header nav a:hover{
     font-family: 'Spartan', sans-serif;
 }
 .redes{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 80%;
-    margin-bottom: 3%;
-    margin-top: 0%;
- 
+ text-align: end;
 }
 .redes i{
     font-size: 30px;
     color: rgb(148, 59, 207);
 }
 .redes a{
-    margin-left: 5%;   
+    margin-left: 2%;   
 }
 
 /*section parte 2*/
@@ -140,11 +135,11 @@ header nav a:hover{
 
 }
 .cajas{
-    width: 90%;
+    width: 81%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 6%;
+    margin-left: 10%;
    
 }
 .television, .cine, .teatro{
@@ -174,7 +169,7 @@ header nav a:hover{
     color: white;
 }
 .teatro img, .cine img{
-    margin-top: 5%;
+    margin-top: 8%;
     width: 90%;
     margin-left: 5%;
     border-radius: 2.5%;
@@ -241,14 +236,15 @@ nav a{
 }
 .texto h1{
     font-size: 40px;
+    margin-top: 8%;
 }
 .texto p{
-    margin-top: 0%;
+    margin-top: -3%;
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
 }
 .redes{
-    margin-left: 60%;
+    margin-right: 2%;
 }
 .body{
     width: 100%;
@@ -357,7 +353,9 @@ nav a{
         margin-top: -3%;
     }
     .redes{
-        margin-left: 30%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
     }
     /*section parte 2*/
 
